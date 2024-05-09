@@ -1,0 +1,159 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    background: rgb(0, 195, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.todo{
+
+    background: rgba(255, 255, 255, 0.217);
+    backdrop-filter: blur(10px);
+    width: 30%;
+    padding: 40px;
+    text-align: center;
+    margin: 100px auto;
+    border-radius: 20px;
+
+}
+
+.todo h1{
+
+    font-family: sans-serif;
+    font-size: 5em;
+
+}
+
+.todo .input input{
+
+    width: 70%;
+    padding: 5px 10px;
+    font-size: 2em;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.459);
+
+}
+
+.todo .input button{
+
+    padding: 5px 18px;
+    font-size: 2em;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.329);
+    font-family: sans-serif;
+
+}
+
+.todo .input button:hover{
+
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.526);
+
+}
+
+.todo #list li{
+
+    list-style: none;
+    background: rgba(255, 255, 255, 0.423);
+    padding: 5px;
+    font-size: 1.5em;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+
+}
+
+.todo #list li button{
+
+    background: rgba(255, 255, 255, 0.374);
+    border: none;
+    outline: none;
+    overflow: hidden;
+    padding: 5px 10px;
+    border-radius: 20px;
+
+}
+
+.todo #list li button:hover{
+
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.518);
+
+}
+
+
+@media (min-width: 1100px) and (max-width: 1300px) {
+
+    .todo {
+        width: 50%;
+    }
+    
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+
+    .todo {
+        width: 50%;
+    }
+    
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+
+    .todo {
+        width: 75%;
+    }
+    
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+
+    .todo {
+        width: 66%;
+    }
+    
+}
+
+
+@media (min-width: 460px) and (max-width: 700px) {
+
+    .todo {
+        width: 83%;
+    }
+    
+}
+@media (min-width: 200px) and (max-width: 460px) {
+
+    .todo {
+        width: 80%;
+    }
+    .todo h1 {
+        font-family: sans-serif;
+        font-size: 3em;
+    }
+    .todo .input input {
+        width: 55%;
+    }
+    .todo .input button {
+        padding: 11px 18px;
+        font-size: 1.5em;
+    }
+    
+}
+
